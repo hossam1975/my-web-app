@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: hossam789/my-web-app
+  tag: latest
+
+service:
+  port: 8000
+
+namespace: my-web-app
